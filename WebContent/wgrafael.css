@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* Criado por Rafael Dantas - ProgBasic
+	wgrafael, edite, estude, use - mais não retire o credito :) */
+
+#info {
+	background:url(img/help.png) no-repeat left;
+	width: 385px;
+	height: 45px;
+	border: thin solid #000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: small;
+	cursor:pointer;
+}
+
+#info p{
+	margin: 8px 60px;	
+}
+
+#menu {
+}
+
+#menu .btn {
+	color: #FFF;
+	text-shadow: 1px 1px 2px #000000;
+	width: 120px;
+	height: 40px;
+	display: inline;
+	background: url(img/menu.png) no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition-duration: .20s;
+	float: left;
+	overflow:hidden;
+}
+
+#menu ul {
+	padding:0;
+	margin:0;
+}
+
+#menu li {
+	background:#999;
+	list-style-type:none;
+	font-size:small;
+	text-shadow:none;
+	color:#000;	
+	float:left;
+	width: 120px;
+	-webkit-transition-duration: .20s;
+}
+
+#menu li:hover {
+	background:#CCC;
+	font-style:oblique;
+	text-shadow:1px 1px 2px #FFFFFF;
+	font-weight: bold;
+	-webkit-transition-duration: .20s;
+}
+
+#menu .btn:hover {
+	background:url(img/menu_hover.png);
+	cursor:pointer;
+	float:left;
+	-webkit-transition-duration: .20s;
+	overflow:visible;
+}
+
+#menu .separador {
+	background:url(img/separador.png);
+	height:40px;
+	width:1px;
+	float:left;
+	border:1px #000000; 
+}
